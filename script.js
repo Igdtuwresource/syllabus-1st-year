@@ -53,7 +53,7 @@ let products = {
         productName: "Applied Physics(AI)",
         category: "Physics-Minors",
        url:"https://drive.google.com/file/d/1jQMPRmTAUcQWy5ANzMbpjfaCO3emEJfP/view?usp=share_link",
-        image: "maths.jpeg",
+        image: "physicscore.jpeg",
       },
       {
         productName: "Applied Chemistry",
