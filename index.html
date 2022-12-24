@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EXAMS SYLLABUS</title>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="heading"><b>EXAMS SYLLABUS</b></h1>
+    <div class="wrapper">
+      <div id="search-container">
+        <input
+          type="search"
+          id="search-input"
+          placeholder="Search subjects here.."
+        />
+        <button id="search">Search</button>
+        
+      </div>
+      <div id="buttons">
+        <button class="button-value" onclick="filterProduct('all')">All</button>
+        
+        <button class="button-value" onclick="filterProduct('BEE-Minors')">
+        BEE
+        </button>
+        <button class="button-value" onclick="filterProduct('Minors-Python')">
+        Python
+        </button>
+        <button class="button-value" onclick="filterProduct('COA-Minors')">
+            COA
+            </button>
+        <button class="button-value" onclick="filterProduct('Minors-Maths')">
+        Maths
+        </button>
+        
+        <button class="button-value" onclick="filterProduct('Chem-Minors')">
+        Chemistry
+        </button>
+        <button class="button-value" onclick="filterProduct('Physics-Minors')">
+        Physics
+        </button>
+        <button class="button-value" onclick="filterProduct('Minors-C')">
+            C Language
+            </button>
+        <button class="button-value" onclick="filterProduct('IS-Minors')">
+        Intelligent Systems
+        </button>
+        <button class="button-value" onclick="filterProduct('AE-Minors')">
+        Analog Electronics
+            </button>
+            <button class="button-value" onclick="filterProduct('CS-Minors')">
+        Communication Skills
+                </button>
+                <button class="button-value" onclick="filterProduct('Minors-EM')">
+                    Engineering Mechanics
+                    </button>
+        
+      </div>
+      <div id="products">
+        
+
+      </div>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
